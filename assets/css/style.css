@@ -147,16 +147,14 @@ a active {
   opacity: .8;
 }
 
-h3 {
-  position: absolute;
-  width: 200px;
-  line-height: 25px;
-  color: #fff;
+h1 {
+  line-height: 20px;
+  color: white;
   background-color: #078f88;
   text-align: center;
   padding: 14px;
   margin-left: 1px;
-  bottom: 20px;
+  bottom: 10px;
   border: 1px solid white;
   font-size: 20px;
 }
