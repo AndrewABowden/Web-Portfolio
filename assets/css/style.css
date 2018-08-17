@@ -1,24 +1,61 @@
+.container {
+  padding: 10px;
+}
+
 .shadows {
-  box-shadow: inset 0px 11px 15px -10px #000, inset 0px -11px 15px -10px #000;
+  -webkit-box-shadow: inset 0px 11px 15px -10px #000, inset 0px -11px 15px -10px #000;
+          box-shadow: inset 0px 11px 15px -10px #000, inset 0px -11px 15px -10px #000;
 }
 
 .borders {
   border-top: 1px solid #444;
   border-bottom: 1px solid #444;
 }
-/* CSS Styling */
+
+header .info_head {
+  padding: 15px 0;
+}
+
+header .section_title {
+  background-color: #343434;
+  padding: 30px 0px;
+}
+
+header .section_title h1 {
+  position: relative;
+  float: right;
+  width: 50%;
+  text-align: left;
+  padding: 14px 10px 14px 42px;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+header .info_content {
+  padding: 30px 0;
+}
+
+section.info_content {
+  background-color: #232323 !important;
+}
+
 body {
   /* background-color: #232323; */
-  /* background-image: url(""); */
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24px;
-    color: #999;
-    position: relative;
-    font-weight: normal;
-    background-color: #666;
-
+  background-image: url("assets/images/grey_wash_wall.png");
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #999 !important;
+  padding: 22px;
+  background-color: gray !important;
+  font-weight: normal;
 }
+
+body body.box {
+  background-color: white !important;
+}
+
 /* General Settings */
 .col-12 {
   margin-top: 75px;
@@ -38,11 +75,14 @@ body {
 .nav {
   width: 100%;
   background-color: #232323;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .nav a {
   text-align: center;
-  font-size: 29px;
+  font-size: 22px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -50,18 +90,19 @@ body {
   color: white;
 }
 
-
-.nav-Menu {
-  height: 65;
+.nav-bar {
+  height: 65px;
   font-size: 18px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.nav-Menu > li > a {
+
+.nav-bar > li > a {
   text-decoration: none;
   display: block;
   font-size: 15px;
   padding: 26px 20px;
 }
+
 li active {
   background-color: #4aaaa5;
   color: white;
@@ -70,10 +111,6 @@ li active {
 .jumbotron {
   width: 100%;
   background-size: 100% 100%;
-}
-
-.container {
-  margin-top: 25px;
 }
 
 /* Changes the way links look on nav menu */
@@ -136,9 +173,9 @@ label {
 h1 {
   color: skyblue;
   -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-name: slidein;
-          animation-name: slidein;
+  animation-name: slidein;
 }
 
 @-webkit-keyframes slidein {
