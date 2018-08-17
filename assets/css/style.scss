@@ -43,17 +43,18 @@ header {
 section.info_content{
     background-color: #232323 !important;
 }
+// background-image: url("assets/images/grey_wash_wall.png") !important;
+    
   body {
     /* background-color: #232323; */
-    // background-image: url("assets/images/grey_wash_wall.png");
-      font-size: 14px;
-      
+    font-size: 14px;
+    
     //   font-family: 'Open Sans', sans-serif;
     //   line-height: 24px;
-      color: #999 !important;
-      padding: 22px;
-      background-color: gray !important;
-      font-weight: normal;
+    color: #999 !important;
+    padding: 22px;
+    background-color: gray !important;
+    font-weight: normal;
     
   body.box {
     background-color: white !important;
