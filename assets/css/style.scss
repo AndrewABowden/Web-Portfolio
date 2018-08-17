@@ -1,4 +1,18 @@
+$colors: (
+    primary: blue
+    lighten:  ($primary * 40%)
+);
 
+
+h1 {
+    color: #00ccff;
+};
+
+.navbar-brand#logo{
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
 
 .container {
     padding:10px;
@@ -25,32 +39,20 @@ header {
     background-color: #343434;
     padding: 30px 0px;
     }
-
-    .section_title h1 {
-        position: relative;
-        float: right;
-        width: 50%;
-        text-align: left;
-        padding: 14px 10px 14px 42px;
-        margin: 0;
-        color: #fff;
-        font-weight: bold;
-        font-size: 32px;
     }
     .info_content {
         padding: 30px 0;
     }
-}
   
 section.info_content{
     background-color: #232323 !important;
 }
   body {
     /* background-color: #232323; */
-    background-image: url("assets/images/grey_wash_wall.png");
+    // background-image: url("assets/images/grey_wash_wall.png");
       font-size: 14px;
       
-      font-family: 'Open Sans', sans-serif;
+    //   font-family: 'Open Sans', sans-serif;
     //   line-height: 24px;
       color: #999 !important;
       padding: 22px;
@@ -79,16 +81,19 @@ section.info_content{
     background-color: black !important;
   }
   
-  /* new class */
+  /* new class */ 
   .nav {
     width: 100%;
-    background-color: #232323;
+    //background-color: rgba(65, 26, 26, 0.63);
+    background-color: blue;
+
     justify-content: center
-  }
   
+  }
   .nav a {
     text-align: center;
     font-size: 22px;
+    // font-family: 'Tahoma', Geneva, Verdana, sans-serif;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
@@ -97,26 +102,27 @@ section.info_content{
   }
   
   
-  .nav-bar {
+  .nav-bar-dark {
     height: 65px;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .nav-bar > li > a {
+  .nav-bar-dark > li > a {
     text-decoration: none;
     display: block;
     font-size: 15px;
     padding: 26px 20px;
   }
+
   li active {
     background-color: #4aaaa5;
     color: white;
   }
   
-  .jumbotron {
-    width: 100%;
-    background-size: 100% 100%;
-  }
+//   .jumbotron {
+//     width: 100%;
+//     background-size: 100% 100%;
+//   }
   /* Changes the way links look on nav menu */
   /*creating an active class to show what page we are on */
   .active {
@@ -146,20 +152,7 @@ section.info_content{
     border: 0 none;
     opacity: .8;
   }
-  
-  h1 {
-    // position: absolute;
-    line-height: 20px;
-    color: white;
-    background-color: #078f88;
-    text-align: center;
-    padding: 14px;
-    margin-left: 1px;
-    bottom: 10px;
-    border: 1px solid white;
-    font-size: 20px;
-  }
-  
+
   .navbar-brand {
     padding: 8px 14px;
     font-size: 20px;
@@ -174,11 +167,26 @@ section.info_content{
   /*footer*/
   /*h1 frames */
   h1 {
-    color: skyblue;
+    color: blue;
     -webkit-animation-duration: 3s;
             animation-duration: 3s;
     -webkit-animation-name: slidein;
             animation-name: slidein;
+
+            h1 {
+                // position: absolute;
+                line-height: 20px;
+                color: white;
+                background-color: blue;
+
+                text-align: center;
+                padding: 14px;
+                margin-left: 1px;
+                bottom: 10px;
+                border: 1px solid #999;
+                font-size: 20px;
+              }
+              
   }
   
   @-webkit-keyframes slidein {

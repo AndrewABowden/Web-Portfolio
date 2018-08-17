@@ -1,3 +1,13 @@
+.navbar-brand#logo {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .container {
   padding: 10px;
 }
@@ -78,7 +88,7 @@ body body.box {
 /* new class */
 .nav {
   width: 100%;
-  background-color: #232323;
+  background-color: #ddd;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -150,7 +160,7 @@ a active {
 h1 {
   line-height: 20px;
   color: white;
-  background-color: #078f88;
+  background-color: rgba(65, 26, 26, 0.63);
   text-align: center;
   padding: 14px;
   margin-left: 1px;
