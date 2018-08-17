@@ -1,3 +1,5 @@
+
+
 .container {
     padding:10px;
 }
@@ -10,12 +12,15 @@
     border-top: 1px solid #444;
     border-bottom: 1px solid #444;
   }
-
+  .header-box {
+      background-color: #ddd ;
+}
 header {
     .info_head {
         padding: 15px 0;
     }
 
+   
 .section_title {
     background-color: #343434;
     padding: 30px 0px;
@@ -71,7 +76,7 @@ section.info_content{
   /* overwrite boostrap */
   .img-thumbnail {
     margin: 1px;
-    background-color: black;
+    background-color: black !important;
   }
   
   /* new class */

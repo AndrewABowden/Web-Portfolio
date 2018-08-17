@@ -12,6 +12,10 @@
   border-bottom: 1px solid #444;
 }
 
+.header-box {
+  background-color: #ddd;
+}
+
 header .info_head {
   padding: 15px 0;
 }
@@ -68,7 +72,7 @@ body body.box {
 /* overwrite boostrap */
 .img-thumbnail {
   margin: 1px;
-  background-color: black;
+  background-color: black !important;
 }
 
 /* new class */
