@@ -4,10 +4,6 @@ $colors: (
 );
 
 
-h1 {
-    color: #00ccff;
-};
-
 .navbar-brand#logo{
     text-align: center;
     justify-content: center;
@@ -85,7 +81,8 @@ section.info_content{
   .nav {
     width: 100%;
     //background-color: rgba(65, 26, 26, 0.63);
-    background-color: blue;
+ 
+    background-color: #343434;
 
     justify-content: center
   
@@ -128,7 +125,9 @@ section.info_content{
   .active {
     color: white;
   }
-  
+  a {
+      color: #343434 !important;
+  }
   a hover {
     color: white;
   }
@@ -154,8 +153,7 @@ section.info_content{
   }
 
   .navbar-brand {
-    padding: 8px 14px;
-    font-size: 20px;
+
   }
   
   /* Contact Form */
@@ -167,7 +165,8 @@ section.info_content{
   /*footer*/
   /*h1 frames */
   h1 {
-    color: blue;
+    color: #343434 !important;
+    color: whitesmoke;
     -webkit-animation-duration: 3s;
             animation-duration: 3s;
     -webkit-animation-name: slidein;
@@ -176,8 +175,8 @@ section.info_content{
             h1 {
                 // position: absolute;
                 line-height: 20px;
-                color: white;
-                background-color: blue;
+                color: white !important;
+                background-color: #343434;;
 
                 text-align: center;
                 padding: 14px;
