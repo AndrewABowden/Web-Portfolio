@@ -1,8 +1,19 @@
+.clearfix:after {
+  content: " "; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+
 $colors: (
     primary: blue
     lighten:  ($primary * 40%)
 );
-
+body#layout {
+background-color:color(primary);
+};
 
 .navbar-brand#logo{
     text-align: center;
@@ -52,7 +63,7 @@ section.info_content{
     //   font-family: 'Open Sans', sans-serif;
     //   line-height: 24px;
     color: #999 !important;
-    padding: 22px;
+    padding: 0px;
     background-color: gray !important;
     font-weight: normal;
     
@@ -153,9 +164,6 @@ section.info_content{
     opacity: .8;
   }
 
-  .navbar-brand {
-
-  }
   
   /* Contact Form */
   label {
@@ -211,3 +219,10 @@ section.info_content{
     }
   }
   /*# sourceMappingURL=style.css.map */
+footer#bottomFooter {
+  background-color: #343434 !important;
+  color: red;
+    #topfooter {
+      background-color: white;
+    }
+}

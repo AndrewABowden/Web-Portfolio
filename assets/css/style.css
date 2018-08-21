@@ -39,11 +39,11 @@ section.info_content {
 
 body {
   /* background-color: #232323; */
-  background-image: url("assets/images/grey_wash_wall.png");
+  background-image: url("images/grey_wash_wall.png");
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   color: #999 !important;
-  padding: 22px;
+  padding: 0px;
   background-color: gray !important;
   font-weight: normal;
 }
@@ -196,4 +196,8 @@ h1 {
     width: 100%;
   }
 }
+#loadout {
+  background-color: red;
+}
+    
 /*# sourceMappingURL=style.css.map */
