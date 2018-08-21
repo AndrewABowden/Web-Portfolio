@@ -39,7 +39,7 @@ section.info_content {
 
 body {
   /* background-color: #232323; */
-  background-image: url("images/grey_wash_wall.png");
+  background-image: url("../assets/images/logo.png");
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   color: #999 !important;
