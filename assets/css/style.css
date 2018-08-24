@@ -39,7 +39,7 @@ section.info_content {
 
 body {
   /* background-color: #232323; */
-  background-image: url("../assets/images/logo.png");
+  /* background-image: url("../assets/images/logo.png"); */
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   color: #999 !important;
@@ -112,15 +112,15 @@ li active {
 /* Changes the way links look on nav menu */
 /*creating an active class to show what page we are on */
 .active {
+  color: skyblue;
+}
+
+a:hover {
   color: white;
 }
 
-a hover {
-  color: white;
-}
-
-a active {
-  color: white;
+a:active {
+  color: whitesmoke;
 }
 
 /*Portfolio */

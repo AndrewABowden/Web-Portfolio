@@ -85,7 +85,7 @@ body {
 
 /* overwrite boostrap */
 .img-thumbnail {
-  margin: 1px;
+  margin: 5px 1px 1px 1px;
   background-color: black !important;
 }
 
@@ -98,7 +98,7 @@ body {
 
   justify-content: center;
 }
-.nav a {
+a.nav{
   text-align: center;
   font-size: 22px;
   // font-family: 'Tahoma', Geneva, Verdana, sans-serif;
